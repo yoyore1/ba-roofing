@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#0b1e36">
   <link rel="icon" href="/assets/img/logo.png">
   <link rel="stylesheet" href="/assets/css/fonts.css?v=1">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=6">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=7">
   <meta property="og:title" content="B A Roofing | Residential &amp; Commercial Roofing · Orange County">
   <meta property="og:description" content="Honest roofing across Orange County & SoCal. Replacement, repair, storm & leak repair. Licensed #1152299, insured & bonded. Free estimates.">
   <meta property="og:type" content="website">
@@ -55,16 +55,9 @@
     <span id="top"></span>
 
     <!-- ============================ HERO ============================ -->
-    <section class="hero" data-hero>
-      <div class="hero__sky" data-parallax>
-        <div class="hero__glow hero__glow--1"></div>
-        <div class="hero__glow hero__glow--2"></div>
-        <svg class="hero__skyline" viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-          <path d="M0 320V250l120-70 90 52v-22l150-92 120 70v-30l160-96 130 78v-26l150-92 120 72v-34l150-92 120 74v-20l80-48V320z" fill="rgba(255,255,255,.06)"/>
-          <path d="M0 320V272l150-86 110 64v-18l160-96 120 72v-22l160-96 120 74v-24l160-96 120 74v-16l180-104V320z" fill="rgba(255,255,255,.05)"/>
-        </svg>
-        <div class="hero__drops" aria-hidden="true"></div>
-      </div>
+    <section class="hero hero--photo" data-hero>
+      <div class="hero__bg" data-parallax aria-hidden="true"></div>
+      <div class="hero__scrim" aria-hidden="true"></div>
       <div class="hero__fog" data-fog aria-hidden="true"></div>
 
       <div class="container hero__content" data-hero-content>
@@ -157,6 +150,29 @@
             <h3>Commercial Roofing</h3>
             <p>Flat and low-slope systems for storefronts, offices and multi-unit properties — minimal disruption, maximum protection.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ BEFORE / AFTER ============================ -->
+    <section class="proof" id="proof">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Real results</p>
+          <h2 class="section-title">From worn-out to weather-ready.</h2>
+        </div>
+        <div class="ba glass" data-ba data-reveal>
+          <div class="ba__stage">
+            <img class="ba__img ba__img--after" src="/assets/img/roof-after.jpg" alt="After — a brand-new dark shingle roof" width="1240" height="780" decoding="async">
+            <div class="ba__before" data-ba-before>
+              <img class="ba__img ba__img--before" src="/assets/img/roof-before.jpg" alt="Before — a worn, weather-stained roof" width="1240" height="780" decoding="async" aria-hidden="true">
+            </div>
+            <span class="ba__label ba__label--after">After</span>
+            <span class="ba__label ba__label--b">Before</span>
+            <div class="ba__handle" data-ba-handle><span class="ba__grip"><svg viewBox="0 0 24 24"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></span></div>
+            <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Before / after slider" data-ba-range>
+          </div>
+          <p class="ba__note">Drag the slider — same roof, before and after a full replacement.</p>
         </div>
       </div>
     </section>

@@ -1,0 +1,9 @@
+{
+  "name": "ba-roofing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "B A Roofing — premium residential & commercial roofing site (Orange County / SoCal) + serverless lead capture.",
+  "scripts": { "preview": "node _serve.mjs 3900" },
+  "engines": { "node": ">=18" }
+}

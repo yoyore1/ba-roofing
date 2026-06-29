@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#0b1e36">
   <link rel="icon" href="/assets/img/logo.png">
   <link rel="stylesheet" href="/assets/css/fonts.css?v=1">
-  <link rel="stylesheet" href="/assets/css/styles.css?v=7">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=8">
   <meta property="og:title" content="B A Roofing | Residential &amp; Commercial Roofing · Orange County">
   <meta property="og:description" content="Honest roofing across Orange County & SoCal. Replacement, repair, storm & leak repair. Licensed #1152299, insured & bonded. Free estimates.">
   <meta property="og:type" content="website">
@@ -140,7 +140,12 @@
             <div class="ba__handle" data-ba-handle><span class="ba__grip"><svg viewBox="0 0 24 24"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg></span></div>
             <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Before / after slider" data-ba-range>
           </div>
-          <p class="ba__note">Drag the slider — same roof, before and after a full replacement.</p>
+          <div class="ba__tabs" role="group" aria-label="Choose a job type">
+            <button class="ba__tab is-active" type="button" data-after="roof-after" data-before="roof-before">Full Replacement</button>
+            <button class="ba__tab" type="button" data-after="storm-after" data-before="storm-before">Storm Repair</button>
+            <button class="ba__tab" type="button" data-after="shingle-after" data-before="shingle-before">Shingle Repair</button>
+          </div>
+          <p class="ba__note">Drag the slider — real before &amp; after roofs. Switch tabs for storm-damage and shingle repairs.</p>
         </div>
       </div>
     </section>
